@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]> 
+<html class="no-js ie  lt-ie10 lt-ie9 lt-ie8 lt-ie7 ancient oldie" lang="en-US">
+   <![endif]-->
+   <!--[if IE 7]>     
+   <html class="no-js ie7 lt-ie10 lt-ie9 lt-ie8 oldie" lang="en-US">
+      <![endif]-->
+      <!--[if IE 8]>     
+      <html class="no-js ie8 lt-ie10 lt-ie9 oldie" lang="en-US">
+         <![endif]-->
+         <!--[if IE 9]>     
+         <html class="no-js ie9 lt-ie10 oldie" lang="en-US">
+            <![endif]-->
+            <!--[if gt IE 8]><!--> 
+            <html class="no-js" dir="ltr" lang="en-US">
+               <!--<![endif]-->
+               <head>
+                  <meta charset="utf-8" />
+                  <!--[if IE]> 
+                  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                  <![endif]-->
+                  <title>Global IC | IELTS</title>
+                  <!-- Set the viewport width to device width for mobile -->
+                  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+                  <link rel="shortcut icon" href="images/favicon.png">
+                  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+                  <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
+                  <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+                  <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+                  <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+                  <!--[if gt IE 8]><!-->
+                  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">                
+                  <link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" />
+                  <!--<![endif]-->
+                  <!--[if !IE]> 
+                  <link href="css/retina-responsive.css" rel="stylesheet" type="text/css" media="screen" />
+                  <![endif]-->
+                  <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+                  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+                  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+                  <script src="js/modernizr.js" type="text/javascript"></script>
+                  <script
+                     src="https://code.jquery.com/jquery-3.3.1.min.js"
+                     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                     crossorigin="anonymous"></script>
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                  <link href="dropify.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+                  <style type="text/css">
+                     .content-wrapper {
+                     padding-bottom: 50px;
+                     }
+                     .button-container {
+                     display: grid;
+                     grid-template-columns: 1fr 1fr;
+                     grid-gap: 10px;
+                     }
+                     .button-container button {
+                     flex: 1;
+                     border-width: 0;
+                     outline: none;
+                     border-radius: 2px;
+                     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+                     background-color: #ff8a16;
+                     padding: 5px;
+                     }
+                     .button-container form {
+                     width: 50%;
+                     justify-self: center;
+                     text-align: center;
+                     }
+                     .login-page {
+                     width: 360px;
+                     padding: 8% 0 0;
+                     margin: auto;
+                     }
+                     .form {
+                     position: relative;
+                     z-index: 1;
+                     background: #FFFFFF;
+                     /*max-width: 360px;
+                     margin: 0 auto 100px;*/
+                     padding: 20px 0px 45px;
+                     /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
+                     }
+                     .form input, .form textarea,.form select,.form select option {
+                     outline: 0;
+                     background: #f2f2f2;
+                     width: 97%;
+                     border: 0;
+                     margin: 0 0 15px;
+                     padding: 15px;
+                     box-sizing: border-box;
+                     font-size: 0.875rem;
+                     }
+                     .form input:active, .form textarea:active,.form select:active,.form select option:active {
+                     background: #ffffff02;
+                     }
+                     .form button {
+                     text-transform: uppercase;
+                     outline: 0;
+                     /*background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);*/
+                     border: 1px solid #ff6500;
+                     padding: 12px 15px;
+                     color: #ff6500;
+                     background-color: #ffffff00;
+                     /*background-size: 200% auto;
+                     font-size: 1rem;*/
+                     transition: 0.5s ease;
+                     /*box-shadow: 0 0 20px #eee;*/
+                     cursor: pointer;
+                     margin: 20px auto 0;
+                     display: block;
+                     }
+                     .form button:hover, .form button:active, .form button:focus {
+                     background-color: #ff6500;
+                     color: #fff;
+                     border: 1px solid #ff6500;
+                     }
+                     .form .message {
+                     margin: 15px 0 0;
+                     color: #b3b3b3;
+                     font-size: 12px;
+                     text-align: center;
+                     }
+                     .form .message a {
+                     color: #a6c1ee;
+                     text-decoration: none;
+                     }
+                     tbody tr td{
+                     padding-right: 7px;
+                     }
+                     .form .ielts-form  input,.form .ielts-form  textarea,.form .ielts-form  select,.form .ielts-form  select option{
+                     width: 48%;
+                     display: inline;
+                     margin: 0 10px 15px 0;
+                     }
+                     .form .preference input{
+                      width: 18.95%;
+                      display: inline;
+                      margin: 0 3px 15px 0;
+                     }
+                     .form-input input{
+                     width: 23.1%;
+                     display: inline;
+                     margin: 0px 16px 15px 0;
+                     }
+                     .educational-details input:nth-child(3),.educational-details input:nth-child(4),.educational-details input:nth-child(5){
+                      width: 31.35% !important;
+                     }
+                     .educational-details input:nth-child(1),.educational-details input:nth-child(2){
+                      width: 47.8% !important;
+                     }
+                     .dropify-font-upload:before, .dropify-wrapper .dropify-message span.file-icon:before {
+                     content: '\f1c1'!important;
+                     font-family: FontAwesome!important;
+                     font-style: normal!important;
+                     font-weight: normal!important;
+                     text-decoration: inherit!important;
+                     color: #f78d4f!important;
+                     font-size: 29px;
+                     }
+                     input[type="date"],select{
+                      color: #666;
+                     }
+                     @media (max-width: 979px){
+                          .educational-details input:nth-child(3),.educational-details input:nth-child(4),.educational-details input:nth-child(5){
+                          width: 100% !important;
+                         }
+                         .educational-details input:nth-child(1),.educational-details input:nth-child(2){
+                          width: 100% !important;
+                         }
+                     }
+                  </style>
+               </head>
+               <body class="sub-page video-detail">
+                  <!-- Preloader -->
+                  <div id="preloader">
+                     <div id="status">
+                        <div class="parent">
+                           <div class="child">
+                              <p class="tiny"><b>loading</b></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wrap">
+                     <div class="inner-page-header">
+                         <div class="centered logo-wrapper hidden-tab">
+                          <h1 id="logo"><a href="index.html"></a></h1>
+                         </div>
+                         <header id="header">
+                            <div class="container-fluid clearfix">
+                               <div class="centered logo-wrapper shown-tab">
+                                <h1 id="logo"><a href="index.html"></a></h1>
+                               </div>
+                               <div id="menu-button">
+                                  <div class="centralizer">
+                                     <div class="cursor">
+                                        <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
+                                     </div>
+                                  </div>
+                               </div>
+                               <nav id="main-nav">
+                                  <ul id="options" class="option-set clearfix" data-option-key="filter">
+                                    <!-- <li><a href="index.html">Home</a> </li> -->
+                                    <li><a href="ielts.html">IELTS</a> </li>
+                                    <li><a href="checklist.html">Check Lists</a></li>
+                                    <li><a href="#">Popular Courses</a></li>
+                                    <li><a href="past-students.html">Past Students</a></li>
+                                    <li  class="selected"><a href="start-application.html">Start Application</a></li>
+                                    <!-- <li><a href="#">Institutions</a></li> -->
+                                    <li><a href="#">Live Updates</a></li>
+                                    <!-- <li><a href="#">Tips & Advice</a></li> -->
+                                    <li><a href="study_medicine.html">Study Medicine</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="#">Blog</a> </li>
+                                    <li><a href="social.html">Social</a></li>
+                                 </ul>
+                               </nav>
+                            </div>
+                         </header>
+                     </div>
+                     <div class="content-wrapper inner-page-content-wrapper">
+                        <div id="content">
+                           <div class="container">
+                              <div class="clearfix">
+                                 <div class="clearfix home" >
+                                    <div class="form">
+                                       <form class="register-form forms">
+                                          <div class="avatar-upload">
+                                             <h1 style="padding-bottom: 10px;text-align: center;">Upload Image</h1>
+                                             <div class="avatar-edit">
+                                                <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                                <label for="imageUpload"><i class="fas fa-pencil-alt" style="padding: 8px;"></i></label>
+                                             </div>
+                                             <div class="avatar-preview">
+                                                <div id="imagePreview" style="background-image: url(images/user-avatar.png);">
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="ielts-form">
+                                             <input name="candidates-name" type="text" placeholder="Your Name" id="name" />
+                                             <input name="parents-name" type="text" placeholder="Parents Name" id="parents" />
+                                          </div>
+                                          <textarea id="address" name="address" type="text" placeholder="Your Address" rows="3"></textarea>
+                                          <div class="ielts-form dob-student">
+                                             <input id="mobileno" name="candidates-number" type="number" placeholder="Your Number" />
+                                             <!-- <label for="dobUk" class="control-label">Enter your date of birth</label> -->
+                                             <input type="date" id="date" name="bday" min="1979-12-31" max="2018-12-31" placeholder="Date Of Birth : ">
+                                          </div>
+                                          <div class="ielts-form">
+                                             <select id="gender" name="candidate-gender" required="">
+                                                <option value="" selected="">Gender</option>
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                             </select>
+                                             <input id="email" name="email" type="email" placeholder="Email" />
+                                          </div>
+                                          <ul class="form-section">
+                                             <li class="form-row">
+                                                <!-- <label class="form-label-left" for="TravelPreference"><span class="form-required">*</span></label> -->
+                                                <div class="form-input">
+                                                   <div class="form-single-column">
+                                                      <select name="OOTravelPreference" id="TravelPreference" class="dropdownHideContent required">
+                                                         <option value="na" selected>IELTS/PTE/SAT/ OTHER DONE</option>
+                                                         <option value="Yes" id="Car">YES</option>
+                                                         <option value="No" id="Boat">No</option>
+                                                         <!-- <option value="Plane" id="Plane">Plane</option> -->
+                                                      </select>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li id="TravelPreference-Car" class="hideContent form-row">
+                                                <!-- <label class="form-label-left" for="CarType">Car Type<span class="form-required">*</span></label> -->
+                                                <div class="form-input">
+                                                   <input id="listening" name="listening" type="number" placeholder="Listening Score" data-validate="{required: '#TravelPreference-Car:visible'}" />
+                                                   <input id="reading" name="reading" type="number" placeholder="Reading Score" data-validate="{required: '#TravelPreference-Car:visible'}" />
+                                                   <input id="writing" name="writing" type="number" placeholder="Writing Score" data-validate="{required: '#TravelPreference-Car:visible'}" />
+                                                   <input id="speaking" name="speaking" type="number" placeholder="Speaking Score" data-validate="{required: '#TravelPreference-Car:visible'}" />
+                                                </div>
+                                                <!-- <div class="form-input">
+                                                   <input id="speaking" name="speaking" type="number" placeholder="Speaking Score" data-validate="{required: '#TravelPreference-Car:visible'}" />
+                                                   </div> -->
+                                             </li>
+                                             <!-- <li id="TravelPreference-Boat" class="hideContent form-row">Here is the boat information.</li> -->
+                                             <!-- <li id="TravelPreference-Plane" class="hideContent form-row">Here is the plane information.</li> -->
+                                          </ul>
+                                          <ul class="form-section">
+                                             <li class="form-row">
+                                                <!-- <label class="form-label-left" for="TravelPreference"><span class="form-required">*</span></label> -->
+                                                <div class="form-input">
+                                                   <div class="form-single-column">
+                                                      <select name="OOTravelPreference" id="ieltstraining" class="dropdownHideContent required">
+                                                         <option value="na" selected>WOULD YOU LIKE IELTS TRAINING</option>
+                                                         <option value="yes" id="yes">YES</option>
+                                                         <option value="no" id="no">No</option>
+                                                         <!-- <option value="Plane" id="Plane">Plane</option> -->
+                                                      </select>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li id="ieltstraining-yes" class="hideContent form-row">
+                                                <!-- <label class="form-label-left" for="CarType">Car Type<span class="form-required">*</span></label> -->
+                                                <div class="form-input" style="margin: 20px 0;">
+                                                   <div class="boxes" style="text-align: left;">
+                                                      <input type="checkbox" name="trainingtype" id="box-1" value="online">
+                                                      <label for="box-1" style="margin-right: 20px;">Online</label>
+                                                      <input type="checkbox" name="trainingtype" id="box-2" value="classroom">
+                                                      <label for="box-2">Classroom</label>
+                                                   </div>
+                                                </div>
+                                                <label for="fileInput" style="text-align: left;">Class 10 Details :</label>
+                                                <div class="form-input educational-details" style="margin-top: 15px;">
+                                                   <input id="ten-school-name" name="ten-school-name" type="text" placeholder="School Name" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="ten-percent-scored" name="ten-percent-scored" type="number" placeholder="% Scored" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="ten-yop" name="ten-yop" type="number" placeholder="Year of Passing" data-validate="{required: '#TravelPreference-Car:visible'}" maxlength="4">
+                                                   <input id="ten-eng-score" name="ten-eng-score" type="number" placeholder="English Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="ten-math-score" name="ten-math-score" type="number" placeholder="Maths Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                </div>
+                                                <label for="fileInput" style="text-align: left;">Class 12 Details :</label>
+                                                <div class="form-input educational-details" style="margin-top: 15px;">
+                                                   <input id="twelve-school-name" name="twelve-school-name" type="text" placeholder="School Name" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="twelve-percent-scored" name="twelve-percent-scored" type="number" placeholder="% Scored" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="twelve-yop" name="twelve-yop" type="number" placeholder="Year of Passing" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="twelve-eng-score" name="twelve-eng-score" type="number" placeholder="English Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="twelve-math-score" name="twelve-math-score" type="number" placeholder="Maths Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                </div>
+                                                <label for="fileInput" style="text-align: left;">Bachelors Details :</label>
+                                                <div class="form-input educational-details" style="margin-top: 15px;">
+                                                   <input id="bachelors-school-name" name="bachelors-college-name" type="text" placeholder="College Name" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="bachelors-percent-scored" name="bachelors-percent-scored" type="number" placeholder="% Scored" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="bachelors-yop" name="bachelors-yop" type="number" placeholder="Year of Passing" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="bachelors-eng-score" name="bachelors-eng-score" type="number" placeholder="English Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="bachelors-math-score" name="bachelors-math-score" type="number" placeholder="Maths Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                </div>
+                                                <label for="fileInput" style="text-align: left;">Masters Details :</label>
+                                                <div class="form-input educational-details" style="margin-top: 15px;">
+                                                   <input id="msters-school-name" name="msters-college-name" type="text" placeholder="College Name" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="msters-percent-scored" name="msters-percent-scored" type="number" placeholder="% Scored" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="msters-yop" name="msters-yop" type="number" placeholder="Year of Passing" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="msters-eng-score" name="msters-eng-score" type="number" placeholder="English Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                   <input id="msters-math-score" name="msters-math-score" type="number" placeholder="Maths Score" data-validate="{required: '#TravelPreference-Car:visible'}">
+                                                </div>
+                                             </li>
+                                          </ul>
+                                          <select id="country" name="country-applying" required="">
+                                             <option value="" selected="">Country Applying</option>
+                                             <option value="canada">Canada</option>
+                                             <option value="australia">Australia</option>
+                                             <option value="newzealand">New Zealand</option>
+                                             <option value="usa">USA</option>
+                                             <option value="uk">UK</option>
+                                             <option value="europe">Europe</option>
+                                          </select>
+                                          <div class="preference">
+                                             <input id="college-preference-1" name="college-preference-1" type="text" placeholder="College Preference 1" />
+                                             <input id="college-preference-2" name="college-preference-2" type="text" placeholder="College Preference 2" />
+                                             <input id="college-preference-3" name="college-preference-3" type="text" placeholder="College Preference 3" />
+                                             <input id="college-preference-4" name="college-preference-4" type="text" placeholder="College Preference 4" />
+                                             <input id="college-preference-5" name="college-preference-5" type="text" placeholder="College Preference 5" />
+                                          </div>
+                                          <div class="preference">
+                                             <input id="course-preference-1" name="course-preference-1" type="text" placeholder="Course Preference 1" />
+                                             <input id="course-preference-2" name="course-preference-2" type="text" placeholder="Course Preference 2" />
+                                             <input id="course-preference-3" name="course-preference-3" type="text" placeholder="Course Preference 3" />
+                                             <input id="course-preference-4" name="course-preference-4" type="text" placeholder="Course Preference 4" />
+                                             <input id="course-preference-5" name="course-preference-5" type="text" placeholder="Course Preference 5" />
+                                          </div>
+                                          <input id="reference" name="reference" type="text" placeholder="Reference" />
+                                          <textarea id="comment" name="suggestions-questions-comments" type="text" placeholder="Suggestions / Questions / Comments" rows="3"></textarea>
+                                          <span class="control-fileupload">
+                                          <label for="fileInput" style="text-align: left;">Upload CV :</label>
+                                          <input type="file" id="fileInput" class="dropify" name="files">
+                                          </span>
+                                          <div class="boxes" style="text-align: left;">
+                                             <input type="checkbox" name="check" value="check" id="box-4">
+                                             <label for="box-4">I accept Terms & Conditions</label>
+                                          </div>
+                                          <button type="button" id="startsubmit">Submit</button>
+                                          <!-- <p class="message">Already registered?
+                                             <a class="log switch" href="#">Sign In</a>
+                                             </p> -->
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end #container -->
+                           </div>
+                           <!-- end .container -->
+                        </div>
+                        <!-- end content -->
+                     </div>
+                     <!-- end content-wrapper -->
+                  </div>
+                  <!-- end wrap -->
+                  <footer id="footer" style="margin-top: 0px;">
+                     <div id="footer-top">
+                        <div class="container clearfix">
+                           <ul class="social-list clearfix">
+                              <li> <a href="#" class="facebook"></a> </li>
+                              <li> <a href="#" class="gplus"></a> </li>
+                              <li> <a href="#" class="pinterest"></a> </li>
+                              <li> <a href="#" class="instagram"></a> </li>
+                              <li> <a href="#" class="twitter"></a> </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="footer-bottom">
+                        <div class="container clearfix">
+                           <p>10C Sir William Jones Sarani, Park Street Middleton Row Inside the FCI Compound Ground Floor, Kolkata, West Bengal 700071 <span class="padding">&middot;</span> 033&nbsp;2227 4138 <span class="padding">&middot;</span> <a href="mailto:info@globalic.com" title="Write Email">info@globalic.com</a> </p>
+                           <p><span>© 2018, Global IC. All Rights Reserved. | Powered by Getwapp Australia Pty Ltd</span></p>
+                        </div>
+                     </div>
+                  </footer>
+                  <div id="divLoading" style="margin: 0px; padding: 0px; position: fixed; right: 0px; top: 0px; width: 100%; height: 100%; background-color: #666666; z-index: 30001; opacity: .8; filter: alpha(opacity=70); display: none">
+                      <p style="position: absolute;top: 50%;left: 50%;margin-left: -24px;margin-top: -24px;">
+                          <img src="images/loading.gif">
+                      </p>
+                  </div> 
+                  <script type="text/javascript">
+                     function readURL(input) {
+                       if (input.files && input.files[0]) {
+                           var reader = new FileReader();
+                           reader.onload = function(e) {
+                               $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+                               $('#imagePreview').hide();
+                               $('#imagePreview').fadeIn(650);
+                           }
+                           reader.readAsDataURL(input.files[0]);
+                       }
+                     }
+                     $("#imageUpload").change(function() {
+                       readURL(this);
+                     });
+                  </script>
+                  <script type="text/javascript">
+                     $(document).ready(function () {
+                     
+                     //BEGIN OO SELECT BOX with hidden inputs 1 of 2: DON'T MODIFY!
+                     
+                     //Hide fields not supposed to be shown
+                     $('.hideContent').hide();
+                     
+                     /*** .live() method is deprecated and replaced with .on(). To use this code with jQuery libraries under 1.7+ you will need to use the following .live() method.
+                     $("select.dropdownHideContent").live('change',function() {
+                     displaySelectContent($(this).attr("id"));
+                     });
+                     ***/
+                     
+                     $(document).on("change", "select.dropdownHideContent", function(){ 
+                     displaySelectContent($(this).attr("id"));
+                     });
+                     
+                     //Loop through selects with hidden content and display content if option selected on page refresh
+                     //Support for browsers that don't clear form form fields on refresh
+                     $("select.dropdownHideContent").each(function(){
+                     var selectID = $(this).attr("id");
+                       if($("#"+selectID).val()) {
+                       displaySelectContent($("#"+selectID).attr("id"));
+                     };  
+                     });
+                     
+                     function displaySelectContent(chkID)
+                     {
+                       var optionID = $("option:selected","#"+chkID).attr('id');  
+                       $('[id^="'+chkID+'-"]').hide('slow');
+                       $('#'+chkID+'-'+optionID).show('slow');
+                     };
+                     //END OO SELECT BOX with hidden inputs 1 of 2
+                     
+                     }); // End $(document).ready()
+                  </script>
+                  <script type="text/javascript">
+                     $(function() {
+                     $('input[type=file]').change(function(){
+                       var t = $(this).val();
+                       var labelText = 'File : ' + t.substr(12, t.length);
+                       $(this).prev('label').text(labelText);
+                     })
+                     });
+                     $('input[type="checkbox"]').on('change', function() {
+                      $(this).siblings('input[type="checkbox"]').prop('checked', false);
+                     });
+                     $("#myel").on("input",function(){
+                        if($(this).val().length>0){
+                        $(this).addClass("full");
+                    }
+                    else{
+                       $(this).removeClass("full");
+                       }
+                     });
+                  </script>
+                  <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+                  <script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
+                  <script src="js/retina.js" type="text/javascript"></script>
+                  <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+                  <script src="js/jquery.isotope2.min.js" type="text/javascript"></script>
+                  <script src="js/packery-mode.pkgd.min.js" type="text/javascript"></script>
+                  <script src="js/jquery.ba-bbq.min.js" type="text/javascript"></script>
+                  <script src="js/jquery.isotope.load.js" type="text/javascript"></script>
+                  <script src="js/jquery.form.js" type="text/javascript"></script>
+                  <script src="js/input.fields.js" type="text/javascript"></script>
+                  <script src="js/preloader.js" type="text/javascript"></script>
+                  <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+                  <script defer src="js/jquery.flexslider-min.js"></script>
+                  <script src="js/jquery.fitvids.js" type="text/javascript"></script>
+                  <script src="js/responsive-nav.js" type="text/javascript"></script>
+                  <script type="text/javascript" src="dropify.min.js"></script>
+                  <script type="text/javascript">
+                     $('.dropify').dropify();
+                  </script>
+               </body>
+            </html>
